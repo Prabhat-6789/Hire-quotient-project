@@ -6,6 +6,7 @@ This project is a task assigned by <u>**HIRE QUOTIENT**</u> to demonstrate vario
 ### User Authentication
 - Implements a secure login/logout system
 - Users can securely authenticate using tokens.
+- For User operations and Post operations user must be logged in.
 
 ### MongoDB Integration
 - Utilizes MongoDB for data storage.
@@ -51,7 +52,7 @@ This project is a task assigned by <u>**HIRE QUOTIENT**</u> to demonstrate vario
   - **Parameters:**
     - `userId` (string): Unique identifier for the user.
   - **Request Body:**
-    - `id` (string): Unique identifier for the user.
+    - `data` (object): An object containing the fields to be updated.
   - **Response:**
     - `message` (string): Indicates the success of the update.
 
