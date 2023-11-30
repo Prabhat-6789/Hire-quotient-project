@@ -42,7 +42,7 @@ This project is a task assigned by <u>**HIRE QUOTIENT**</u> to demonstrate vario
     - `userId` (string): Unique identifier for the user.
   - **Response:**
     - `id` (string): Unique identifier for the user.
-    - `username` (string): User's username.
+    - `name` (string): User's name.
     - `email` (string): User's email address.
 
 - **Edit User Profile:**
